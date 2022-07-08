@@ -9,7 +9,7 @@ body{
 	margin-right: 30%;
 }
 
-@media screen and (min-device-width: 420px) {
+@media screen and (max-width: 800px) {
   body {
 	margin-left: 5%;
 	margin-right: 5%;
