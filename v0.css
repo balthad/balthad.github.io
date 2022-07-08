@@ -8,11 +8,3 @@ body{
 	margin-left: 30%;
 	margin-right: 30%;
 }
-
-@media screen and (max-width: 800px) {
-  body {
-	margin-left: 5%;
-	margin-right: 5%;
-	background: blue;
-	}
-}
