@@ -2,7 +2,7 @@
 
 body{
   font-family: Helvetica;
-	font-size: 80%;
+	font-size: small;
 	line-height: 200%;
 	margin-top: 8%;
 	margin-left: 30%;
@@ -11,6 +11,8 @@ body{
 
 @media screen and (max-width: 800px) {
   body {
-margin-left: 5%;
-	margin-right: 5%;  }
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: medium;
+	}
 }
