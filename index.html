@@ -23,318 +23,170 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 
-<style>
+  <link href="style.css" rel="stylesheet" type="text/css">
 	
-html {
- 	 scroll-behavior: smooth;
- 	height: 100%;
-  font-size: 16px;
-
-	}	
-	
-	body{
-	overflow: hidden;
-	width: auto;
-	margin: 0;
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	line-height: 1.4;
-	font-size: 1rem;
-	}
-	
-.main {
- 	padding-top: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
-
-	}	
-	
-.indent {
-	padding-left: 20px;
-	}
-	
-	#Home, #About, #Contact, #Imprint{
-		height: 100vh;
-	}
-	
-	#Projects{	
-	}
-	
-
-div.scroll {
-  width: 102%;
-  height: 100vh;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-
-}
-
-	
-/* TOP AND BOTTOM NAVIGATION BAR */
-	
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: white;
-		color: black;
-		padding-left: 20px;
-		padding-right: 20px;
-  z-index: 2;
-
-}
-
-	
-	.navbartitle{
-		padding-left: 5px;
-	}
-
-.navbarbottom {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: white;
-		color: black;
-		padding-left: 20px;
-		padding-right: 20px;
-  z-index: 2;
-
-}
-	
-/* ----- */
-	
-.small {
-font-size: 80%;
-color: #b5b5b5;
-text-decoration: none;
-	}
-
-	.small:hover{
-color: black;
-  transition: 0.5s;
-	}
-	
-	
-	a {
-color: black;
-  text-decoration: underline;
-}
-	
-a:hover {
-  text-decoration: none;
-color: #b5b5b5;
-  transition: 0.5s;
-}
-
-.italic_link{
- color: black;
-  text-decoration: none;
-font-style: italic;
-}
-	
-	/* IMAGE DISPLAY */
-	
-	
-.image-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.image-container img {
-  max-width: 80%;
-  max-height: 80%;
-  display: block;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.click-text {
-  cursor: pointer;
-}
-
-/* Additional styling for demonstration purposes only */
-.image-link { 	
-font-size: 80%;
-color: #b5b5b5;
-}
-
-.image-link:hover { 
-color: black;
-  transition: 0.5s;
-
-}
-
-	.invisible{
-		display: none;
-	}
-	
-</style>
-<title>Balthazar Auguste-Dormeuil</title>
+<title>Balthazar Auguste-Dormeuil </title>
 </head>
 
 <body>
 
 
 	<div class="navbar">
-	
-Balthazar Auguste-Dormeuil<a class="navbartitle" href="#About">About</a> <a class="navbartitle" href="#Projects">Selected Works</a> <a class="navbartitle" href="#Contact">Contact</a>
-	</div>
+    <span class="dropdown">
+  <span class="title">Balthazar Auguste-Dormeuil<br></span>
+  <span class="content">
+Balthazar Auguste-Dormeuil, M.Arch, is an architect based in Paris and Tel Aviv. He studied architecture at the Kyoto Seika University and ENSA Paris-Malaquais, where he graduated with Highest Honors. He has since collaborated with multiple architectural practices in Paris, London and Tel Aviv.
+<br><br>Balthazar currently teaches as a Studio Master at the <a href="https://linktr.ee/negevarchitecture" target="_blank">Negev School of Architecture</a>, Beer Sheva, a recently opened architecture school that explores the context of the Negev/Naqab desert. He is regularly invited as an external critic to numerous architecture programs internationally. <br><br>
+	 
+Contact <br>
+T <a href="tel:00972549801813">+972549801813</a><br>
+M <a href="mailto:badormeuil@gmail.com">badormeuil@gmail.com</a><br>
+W <a href="https://www.augustedormeuil.com/">www.augustedormeuil.com</a>
+	  
+<br><br>
 
-<div id="Home">
+&copy;2023 All rights reserved.
+</span>
+</span>
 </div>
 	
-<div class="main" id="About" style="text-align: justify;">
-
-Balthazar Auguste-Dormeuil, M.Arch, is an architect based in Paris and Tel Aviv. He studied architecture at the Kyoto Seika University and ENSA Paris-Malaquais, where he graduated with Highest Honors. He has since collaborated with multiple architectural practices in Paris, London and Tel Aviv.
-Balthazar currently teaches as a Studio Master at the <a href="https://linktr.ee/negevarchitecture" target="_blank">Negev School of Architecture</a>, Beer Sheva, a recently opened architecture school that explores the context of the Negev/Naqab desert. He is regularly invited as an external critic to numerous architecture programs internationally. </div>
-
+<div class="main" id="About">
 	
-
-
-<div class="scroll">
-	
-		<div class="main" id="Projects">
-			
 		<div class="image-container">
   <img id="full-image">
 </div>
-			
-	Desert Veil (upcoming)<br>
- 	<div class="indent">Conference and Publication, Urbanism in the Expanded Field Symposium <br>
-		Bezalel Academy of Arts and Design, Department of Architecture, Jerusalem <br>
-	In collaboration with <a href="https://web-site.info/" target="_blank">web-site.info</a> (Dor Schindler, Georgia Hablützel)<br>
-		</div>
-	
-	<br>
-	Dhm 57 <br>
-	<div class="indent">Design Commission, 85 sqm, Tel-Aviv (2023, on-going)<br>
-	</div>
-	
-	<br>
-	Mapping Practices at the Age of the Anthropocene <br>
-	<div class="indent">Lecture, Bezalel Academy of Arts, Department of Architecture, Jerusalem (2023) <br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Mapping%20Practices/balthazar-auguste-dormeuil-mappping-practices.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
 
-	<br>
-	Conflict Landscapes <br>
-	<div class="indent">Publication in Protocol 13, Universität der Künste, Berlin (2023)
-	</div>
-	
-	<br>
-	Hearth <br>
- 	<div class="indent">Design, London (2022) <br>
-	In collaboration with <a href="https://web-site.info/" target="_blank">web-site.info</a> (Dor Schindler, Georgia Hablützel)<br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Hearth/balthazar-auguste-dormeuil-hearth-01.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
-	
-	<br>
-	Nuit Blanche <br>
-	<div class="indent">Exhibition, Paris (2022) <br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Nuit%20Blanche/balthazar-auguste-dormeuil-nuit-blanche-01.jpeg"> <h class="click-text">IMG</h> </span>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Nuit%20Blanche/balthazar-auguste-dormeuil-nuit-blanche-02.jpeg"> <h class="click-text">IMG</h> </span>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Nuit%20Blanche/balthazar-auguste-dormeuil-nuit-blanche-03.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
-	
-	<br>
-	Pedestal<br>
-	<div class="indent">Design Commission, Paris (2022)<br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Pedestal/balthazar-auguste-dormeuil-pedestal-elevation.jpeg"> <h class="click-text">CAD</h> </span>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Pedestal/balthazar-auguste-dormeuil-pedestal-01.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
-
-	<br>
-	 Book of Briefs, Vol.1 <br>
-	<div class="indent">Publication, Negev School of Architecture (2022)<br>
-	Co-edited with Georgia Hablützel<br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Book%20of%20Briefs/balthazar-auguste-dormeuil-book-of-briefs-01.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
-	
-	 <br>
-	De Sphaera Mundi<br>
-	<div class="indent"> Competition, 95sqm, Copenhagen (2022) <br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/De%20Sphaera%20Mundi/balthazar-auguste-dormeuil-de-sphaera-mundi-cad.jpeg"> <h class="click-text">CAD</h> </span>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/De%20Sphaera%20Mundi/balthazar-auguste-dormeuil-de-sphaera-mundi-01.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
-	
-	<br>
-	Forus Gallery<br>
-	<div class="indent">Exhibition, Sendai, Japan (2021) <br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Forus%20Gallery/balthazar-auguste-dormeuil-forus-gallery-01.jpeg"> <h class="click-text">IMG</h> </span>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Forus%20Gallery/balthazar-auguste-dormeuil-forus-gallery-02.jpeg"> <h class="click-text">IMG</h> </span>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Forus%20Gallery/balthazar-auguste-dormeuil-forus-gallery-03.jpeg"> <h class="click-text">IMG</h> </span>
-	</div>
-	
-	
-	<br>
-	Shelter Prototype<br>
-	<div class="indent">Design, Alliance for Humanitarian Architecture, Japan (2020)	<br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/Fabric%20Shelter/12505 - construction manual (square).jpeg"> <h class="click-text">CAD</h> </span>
- 
-	</div>
-	
-	
-	<br>
-	Revue Fig #6<br>
-	<div class="indent">Publication, Paris Art Lab (2020) <br>
-	<a class="small" href="http://www.revue-fig.fr/numero/6/antithese/" target="_blank">LINK</a>
-	</div>
-	
-	<br>
-	Virtual Borders of Liquid Territories<br>
-	<div class="indent">Research, Paris (2019) <br>
-	Under the direction of Prof. Mario Carpo <br>
-	<span class="image-link" data-image="https://augustedormeuil.com/images/VBLT/balthazar-auguste-dormeuil-VBLT.jpeg"> <h class="click-text">IMG</h></span>
-	</div>
+	<table>
 		
-<div style="font-size: 80%;"><br>Photo Credits <br> Akinobu Yoshikawa (Forus Gallery / Alliance for Humanitarian Architecture), Chantal Casanova (Revue Fig #6). </div>
+	<tr>
+		<td class="number">4.1</td>
+		<td>Book of Briefs, 2022-2023 <br> 	
+			Publication, Negev School of Architecture, 2023<br>
+			Co-edited with Georgia Habl&uuml;tzel and Anna Tordera
+		</td>
+	</tr>	
+		
+	<tr>
+		<td class="number">11</td>
+		<td>Ajaccio<br> 	
+	Design Competition (shortlisted), Municipality of Ajaccio, Corsica, 2023<br>
+	In collaboration with <a href="https://web-site.info/" target="_blank">web-site.info</a> (Dor Schindler, Georgia Habl&uuml;tzel)<br>
+		</td>
+	</tr>	
+		
+		<tr>
+		<td class="number">10</td>
+		<td>Desert Veil<br> 	
+	Conference and Publication, <a target="_blank" href="https://www.bezalel.ac.il/en/node/651177">Urbanism in the Expanded Field Symposium</a>, 2023<br>
+		Bezalel Academy of Arts and Design, Department of Architecture, Jerusalem <br>
+	In collaboration with <a href="https://web-site.info/" target="_blank">web-site.info</a> (Dor Schindler, Georgia Habl&uuml;tzel)<br>
+		</td>
+	</tr>	
+		
+		<tr>
+		<td class="number">9</td>
+		<td>DhM 57 <span class="image-link" data-image="https://augustedormeuil.com/images/DhM57/balthazar-auguste-dormeuil-dhm57.jpeg"> <h class="click-text">IMG</h> </span><br> 	
+Design Commission, 85 sqm, Tel-Aviv, 2023 (on-going)
+		</td>
+	</tr>	
+		
+		<tr>
+		<td class="number">8</td>
+		<td>Mapping Practices at the Age of the Anthropocene <span class="image-link" data-image="https://augustedormeuil.com/images/Mapping%20Practices/balthazar-auguste-dormeuil-mappping-practices.jpeg"> <h class="click-text">IMG</h> </span><br> 	
+		Lecture, Bezalel Academy of Arts, Department of Architecture, Jerusalem, 2023 
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="number">7</td>
+		<td>Conflict Landscapes <br> 	
+		Publication in <a target="_blank" href="http://www.protocol-magazine.de">Protocol 13</a>, Universitat der K&uuml;nste, Berlin, 202 
+		</td>
+	</tr>	
+		
+	<tr>
+		<td class="number">6</td>
+		<td>Hearth <span class="image-link" data-image="https://augustedormeuil.com/images/Hearth/balthazar-auguste-dormeuil-hearth-01.jpeg"> <h class="click-text">IMG</h> </span> <br> 	
+			Competition entry, London, 2022 <br>
+			In collaboration with <a href="https://web-site.info/" target="_blank">web-site.info</a> (Dor Schindler, Georgia Habl&uuml;tzel)
+		</td>
+	</tr>	
+		
+		<tr>
+		<td class="number">5.1</td>
+		<td>Nuit Blanche 	<span class="image-link" data-image="https://augustedormeuil.com/images/Nuit%20Blanche/balthazar-auguste-dormeuil-nuit-blanche-01.jpeg"> <h class="click-text">IMG</h> </span>
+	<span class="image-link" data-image="https://augustedormeuil.com/images/Nuit%20Blanche/balthazar-auguste-dormeuil-nuit-blanche-02.jpeg"> <h class="click-text">IMG</h> </span>
+	<span class="image-link" data-image="https://augustedormeuil.com/images/Nuit%20Blanche/balthazar-auguste-dormeuil-nuit-blanche-03.jpeg"> <h class="click-text">IMG</h> </span> <br>
+	Exhibition, Paris, 2022
+			</td>
+	</tr>	
+		
+		
+	<tr>
+		<td class="number">5</td>
+		<td> Pedestal 		<span class="image-link" data-image="https://augustedormeuil.com/images/Pedestal/balthazar-auguste-dormeuil-pedestal-elevation.jpeg"> <h class="click-text">CAD</h> </span>
+	<span class="image-link" data-image="https://augustedormeuil.com/images/Pedestal/balthazar-auguste-dormeuil-pedestal-01.jpeg"> <h class="click-text">IMG</h> </span> <br>
+	Design Commission, 2022			</td>
+	</tr>	
+		
+		
+		<tr>
+		<td class="number">4</td>
+		<td> Book of Briefs 2021-2022 	<span class="image-link" data-image="https://augustedormeuil.com/images/Book%20of%20Briefs/balthazar-auguste-dormeuil-book-of-briefs-01.jpeg"> <h class="click-text">IMG</h> </span><br>
+	Co-edited with Georgia Habl&uuml;tzel
+			</td>
+	</tr>
+		
+		<tr>
+		<td class="number">3</td>
+		<td> De Sphaera Mundi	<span class="image-link" data-image="https://augustedormeuil.com/images/De%20Sphaera%20Mundi/balthazar-auguste-dormeuil-de-sphaera-mundi-cad.jpeg"> <h class="click-text">CAD</h> </span>
+	<span class="image-link" data-image="https://augustedormeuil.com/images/De%20Sphaera%20Mundi/balthazar-auguste-dormeuil-de-sphaera-mundi-01.jpeg"> <h class="click-text">IMG</h> </span><br>
+	Competition entry, 95sqm, Copenhagen, 2022		
+			</td>
+	</tr>	
+		
+		
+		<tr>
+		<td class="number">2.1</td>
+		<td> Forus Gallery	<span class="image-link" data-image="https://augustedormeuil.com/images/Forus%20Gallery/balthazar-auguste-dormeuil-forus-gallery-01.jpeg"> <h class="click-text">IMG</h> </span>
+	<span class="image-link" data-image="https://augustedormeuil.com/images/Forus%20Gallery/balthazar-auguste-dormeuil-forus-gallery-02.jpeg"> <h class="click-text">IMG</h> </span>
+	<span class="image-link" data-image="https://augustedormeuil.com/images/Forus%20Gallery/balthazar-auguste-dormeuil-forus-gallery-03.jpeg"> <h class="click-text">IMG</h> </span><br>
+	Exhibition, Sendai, Japan, 2021		
+			</td>
+	</tr>		
+		
+		<tr>
+		<td class="number">2</td>
+		<td> Shelter Prototype	<span class="image-link" data-image="https://augustedormeuil.com/images/Fabric%20Shelter/12505 - construction manual (square).jpeg"> <h class="click-text">CAD</h> </span><br>
+	Design, Alliance for Humanitarian Architecture, Japan, 2020
+			</td>
+	</tr>	
+		
+		<tr>
+		<td class="number">1.1</td>
+		<td> Revue Fig #6 <a class="small" href="http://www.revue-fig.fr/numero/6/antithese/" target="_blank">LINK</a> <br>
+	Publication, Paris Art Lab, 2020
+			</td>
+	</tr>
+		
+		<tr>
+		<td class="number">1</td>
+		<td> Virtual Borders of Liquid Territories <span class="image-link" data-image="https://augustedormeuil.com/images/VBLT/balthazar-auguste-dormeuil-VBLT.jpeg"> <h class="click-text">IMG</h></span> <br>
+	Research, Paris, 2019<br>
+	Under the direction of Prof. Mario Carpo 
+			</td>
+	</tr>
 
-	<br> 
-	<br> 
-
-</div>
-	
-</div>
-	
-<div class="main" id="Contact">
-T <a href="tel:00972549801813">+972549801813</a><br>
-M <a href="mailto:badormeuil@gmail.com">badormeuil@gmail.com</a><br>
-W <a href="https://www.augustedormeuil.com/">www.augustedormeuil.com</a> 
-</div>
-
-<div class="main" id="Imprint" style="font-size: 80%;">
-Balthazar Auguste-Dormeuil E.I. <br>
-69 rue Raymond-Losserand<br>
-75014 Paris, France <br><br>
-
-<a href="tel:00972549801813">+972549801813</a><br>
-<a href="mailto:badormeuil@gmail.com">badormeuil@gmail.com</a><br><br>
-
-	
-SIRET (FR)<br>
-919 671 222 00017 <br><br>
-	
-
-
-</div>
-	
-	<br>
-	<br>
-<div class="navbarbottom">©2023 All rights reserved. <a class="navbartitle" href="#Imprint">Imprint</a></div>
+	</table>
+		
+<div style="font-size:.8rem;"><br>Photo Credits <br> Akinobu Yoshikawa (Forus Gallery / Alliance for Humanitarian Architecture), Chantal Casanova (Revue Fig #6). </div> <br>
 
 		<!-- ****** IMAGE DUMP ***** -->
 	
 <div class="invisible">
+	
+	<!-- DHM57 -->
+	<img src="https://augustedormeuil.com/images/DhM57/balthazar-auguste-dormeuil-dhm57.jpeg" alt="balthazar-auguste-dormeuil-dhm57">
 	
 	<!-- Mapping Practices -->
 	<img src="https://augustedormeuil.com/images/Mapping%20Practices/balthazar-auguste-dormeuil-mappping-practices.jpeg" alt="balthazar-auguste-dormeuil-mappping-practices">
@@ -371,7 +223,6 @@ SIRET (FR)<br>
 	
 </div>	
 
-
 <script>
 	
 const imageContainer = document.querySelector(".image-container");
@@ -397,6 +248,31 @@ document.addEventListener("click", function(event) {
     document.addEventListener("contextmenu", function(e){
       e.preventDefault();
     }, false);
+	
+	
+// Get all the title elements
+var titles = document.querySelectorAll('.title');
+
+// Loop through the title elements and add a click event listener to each one
+titles.forEach(function(title) {
+  title.addEventListener('click', function() {
+    // Toggle the active class on the clicked title
+    title.classList.toggle('active');
+  });
+});
+
+// Get the anchor element
+var anchor = document.querySelector('.title');
+
+// Add a click event listener to the document body
+document.body.addEventListener('click', function(event) {
+  // Check if the clicked element is not the anchor itself
+  if (event.target !== anchor) {
+    // Perform the desired action to close the anchor
+    // For example, you can remove the active class or hide the anchor
+    anchor.classList.remove('active');
+  }
+});
 
 </script>
 </body></html>
