@@ -153,16 +153,16 @@ color: black;
 
 td {
   vertical-align: top;
+	padding-bottom: 10px;
 }
 
 .number{
-	width: 50px;
+	width: 60px;
 	text-align: left;
 }
 
 table, td{
-  border: 0px solid;
-border-collapse: collapse;
+ border-collapse: collapse;
 }
 
 /* Hide the content by default */
