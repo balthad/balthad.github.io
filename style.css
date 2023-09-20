@@ -157,11 +157,12 @@ td {
 
 .number{
 	width: 50px;
-	text-align: center;
+	text-align: left;
 }
 
 table, td{
   border: 0px solid;
+border-collapse: collapse;
 }
 
 /* Hide the content by default */
