@@ -153,6 +153,7 @@ color: black;
 
 td {
   vertical-align: top;
+	padding-bottom: 10px;
 }
 
 .number{
@@ -160,7 +161,7 @@ td {
 	text-align: left;
 }
 
-table, td{
+table{
  border-collapse: collapse;
 }
 
