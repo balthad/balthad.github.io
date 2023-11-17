@@ -19,8 +19,8 @@ html {
 	
 .main {
  	padding-top: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 	}	
 	
@@ -153,11 +153,11 @@ color: black;
 
 td {
   vertical-align: top;
-	padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .number{
-	width: 50px;
+	padding-right: 1rem;
 	text-align: left;
 }
 
