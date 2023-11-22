@@ -55,7 +55,7 @@
 	
 	a {
 color: black;
-  text-decoration: underline;
+text-decoration: underline;
 }
 	
 a:hover {
@@ -94,7 +94,7 @@ color: #b5b5b5;
 
 /* Additional styling for demonstration purposes only */
 .image-link { 	
-font-size: 80%;
+	font-size: 13px;
 color: #b5b5b5;
 }
 
@@ -126,7 +126,7 @@ table{
 	width: 350px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-size: 80%;
+	font-size: 13px;
 }
 
 /* Style the title to look clickable */
