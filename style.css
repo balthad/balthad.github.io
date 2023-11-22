@@ -10,11 +10,10 @@ html {
 	body{
 	width: auto;
 	margin: 0;
-	font-family: -apple-system, Arial, sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	line-height: 1.35;
 	font-size: 1rem;
-	font-weight: 500;
 }
 	
 .main {
