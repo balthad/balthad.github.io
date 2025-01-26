@@ -13,6 +13,8 @@ font-style: normal;
 	font-style: normal;
 	line-height: 1.45;
 	font-weight: 400;
+	background: black;
+	color: white;
 }
 
 	body{
@@ -102,11 +104,11 @@ color: #b5b5b5;
 /* Additional styling for demonstration purposes only */
 .image-link { 	
 	font-size: 13px;
-color: #b5b5b5;
+color: white;
 }
 
 .image-link:hover { 
-color: black;
+color: #b5b5b5;
 }
 
 	.invisible{
