@@ -9,15 +9,15 @@ font-style: normal;
 }
 
 *{
-	font-family: 'FreeSans', sans-serif;
-	font-style: normal;
 	line-height: 1.45;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 	body{
 	width: auto;
 	margin: 0;
+			font-family: "Inter", sans-serif;
+
 }
 	
 .main {
@@ -119,7 +119,7 @@ td {
 }
 
 .number{
-	padding-right: .5rem;
+	padding-right: 1rem;
 	text-align: left;
 }
 
